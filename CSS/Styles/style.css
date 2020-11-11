@@ -1,16 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: orange;
     background-color: purple;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
 }
 
 .mano-paragrafas {
     color: green;
+    font-weight: bold;
+    font-style: oblique;
 }
 
 p {
-    background-color: rgb(233, 203, 203);
+    background-color: rgb(209, 187, 187);
 }
 
 a 
 { background-color: yellow;
 }
+
+.galerija {
+    background-color:  grey;
+    padding: 20px;
+}
+
+div.galerija img {
+    border: 5px solid rgb(173, 134, 134);
+    padding: 15px;
+    background-color: white;
+    box-shadow: grey 5px 5px 10px;
+
+}
+
